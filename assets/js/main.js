@@ -8,6 +8,7 @@
   "use strict";
 
   // Hero typed
+  // https://github.com/mattboldt/typed.js/  ###  CHECK HERE FOR OPTIONS
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
@@ -16,6 +17,7 @@
       loop: true,
       typeSpeed: 100,
       backSpeed: 50,
+      // startDelay: 100,
       backDelay: 2000
     });
   }
